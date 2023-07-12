@@ -1,11 +1,11 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Rubik;}
+    font-family: Rubik;
+}
 
-#Connect{
+#Connect {
     background-color: #000;
     color: white;
 }
@@ -33,7 +33,7 @@
 .navbar {
     padding: 20px 0;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .nav-links ul {
@@ -42,12 +42,12 @@
     list-style: none;
 }
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
     color: #1C1C1C;
 }
 
-.nav-btn a{
+.nav-btn a {
 
     padding: 12px 28px;
     border-radius: 6px;
@@ -83,11 +83,11 @@
 
 }
 
-.left-dr{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 24px;
+.left-dr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
 }
 
 .p-dr {
@@ -119,16 +119,16 @@ gap: 24px;
     padding-left: 20px;
     border-top-left-radius: 8.318px;
     border-bottom-left-radius: 8.318px;
-background: #FFF;
-box-shadow: 18.300535202026367px 19.13237762451172px 33.27370071411133px 0px rgba(0, 0, 0, 0.07);
-outline: none;
+    background: #FFF;
+    box-shadow: 18.300535202026367px 19.13237762451172px 33.27370071411133px 0px rgba(0, 0, 0, 0.07);
+    outline: none;
 }
 
 .input-btn a {
     text-decoration: none;
     color: #FFF;
     padding: 18px 26px;
-    background-color:  #1341EC;
+    background-color: #1341EC;
     border-top-right-radius: 8.318px;
     border-bottom-right-radius: 8.318px;
 }
@@ -151,34 +151,32 @@ outline: none;
 
 .ab-h1 {
     color: #E5E5E5;
-font-size: 96px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-opacity: 0.5;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.5;
 
 }
 
 .ab1-h1 {
     position: absolute;
-left: 10.5px;
-top: 55px;
-color: var(--neutral-100, #262626);
-
-font-size: 64px;
-font-style: normal;
-font-weight: 600;
-line-height: 96px;
+    left: 10.5px;
+    top: 55px;
+    color: var(--neutral-100, #262626);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96px;
 }
 
 .about-us-left p {
 
-color: var(--neutral-80, #5D5F61);
-
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px;
+    color: var(--neutral-80, #5D5F61);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
 }
 
 .ab-a a {
@@ -193,18 +191,20 @@ line-height: 27px;
     color: #fff;
 }
 
-#Connect > .malumot{
+#Connect>.malumot {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 61px;
 }
-#Connect .malumot .p-p{
+
+#Connect .malumot .p-p {
     display: flex;
     align-items: flex-start;
     gap: 19px;
 }
-#Connect > .malumot > p{
+
+#Connect>.malumot>p {
     display: flex;
     width: 93.92px;
     height: 24.362px;
@@ -216,7 +216,8 @@ line-height: 27px;
     font-weight: 400;
     line-height: 27px;
 }
-#Connect > .basis > h1{
+
+#Connect>.basis>h1 {
     display: flex;
     width: 600px;
     flex-direction: column;
