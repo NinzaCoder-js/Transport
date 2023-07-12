@@ -1,20 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Laila:wght@700&family=Lato&family=Open+Sans:wght@600;800&family=Poppins:wght@500;600;700&family=Roboto&family=Rubik:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Laila:wght@700&family=Lato&family=Open+Sans:wght@600;800&family=Poppins:wght@500;600;700&family=Roboto&family=Rubik:wght@400;500;700&display=swap');
 
-#Connect {}
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Laila:wght@700&family=Lato&family=Open+Sans:wght@600;800&family=Poppins:wght@500;600;700&family=Roboto&family=Rubik:wght@500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Laila:wght@700&family=Lato&family=Open+Sans:wght@600;800&family=Poppins:wght@500;600;700&family=Roboto&family=Rubik:wght@400;500;700&display=swap');
 
-.Connect-container {
-    display: flex;
-    padding: 172px 96px;
-    align-items: flex-start;
-    gap: 66px;
+#Connect{
     background-color: #000;
     color: white;
 }
-
-#Connect>.malumot {
-    width: 587.216px;
-    height: 307.369px;
+#Connect > .malumot{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -26,19 +18,7 @@
     align-items: flex-start;
     gap: 19px;
 }
-#Connect .p-p img{
-    fill: var(--gray-6, #F2F2F2);
-    stroke-width: 0.937px;
-    stroke: var(--gray-6, #F2F2F2);
-}
-.p-p-img{
-    display: flex;
-    align-items: center;
-    gap: 142px;
-}
-
-#Connect>.malumot>p {
-    text-decoration: underline white;
+#Connect > .malumot > p{
     display: flex;
     width: 93.92px;
     height: 24.362px;
@@ -50,8 +30,7 @@
     font-weight: 400;
     line-height: 27px;
 }
-
-#Connect>.basis-h1 {
+#Connect > .basis > h1{
     display: flex;
     width: 600px;
     flex-direction: column;
